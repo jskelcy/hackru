@@ -11,5 +11,11 @@
 "browser_action":{
 
 
+ },
+
+ "content_scripts":[{ 
+	"matches": ["http://*/**", "https://*/*"],
+	"js":["jquery-1.9.1.min.js", "contentscript.js"] 	
  }
+ ]
 }
