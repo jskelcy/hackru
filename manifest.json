@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+
+"name": "risque business",
+"version":"1.0",
+ "permissions": ["tabs"],
+  "background": {
+    "scripts": ["eventpage.js"],
+    "persistent": false
+  },
+"browser_action":{
+
+
+ }
+}
